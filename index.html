@@ -39,16 +39,18 @@
             </svg>
           </button>
         </div>
-      </div>
-    </div>
 
-    <div id="mobile-menu" class="hidden sm:hidden">
-      <div class="px-2 pt-2 pb-3 space-y-1">
-        <a href="#beranda" class="hover:underline px-3 py-2 text-sm font-bold">Beranda</a>
-        <a href="#menu" class=" text-black hover:underline px-3 py-2 text-sm font-bold">Menu</a>
-        <a href="#informasi" class="text-black hover:underline px-3 py-2 text-sm font-bold ">Informasi Gizi</a>
-        <a href="#tentang" class="hover:underline px-3 py-2 text-sm font-bold">Tentang</a>
       </div>
+
+      <div id="mobile-menu" class="hidden block sm:hidden">
+        <div class="px-2 pt-2 pb-3 space-y-1">
+          <a href="#beranda" class="hover:underline px-3 py-2 text-sm block font-bold">Beranda</a>
+          <a href="#menu" class=" text-black hover:underline px-3 py-2 block text-sm font-bold">Menu</a>
+          <a href="#informasi" class="text-black hover:underline px-3 block py-2 text-sm font-bold ">Informasi Gizi</a>
+          <a href="#tentang" class="hover:underline px-3 py-2 text-sm block font-bold">Tentang</a>
+        </div>
+      </div>
+
     </div>
   </nav>
   <div class="mx-auto max-w-7xl bg-primary200 sm:max-h-fit py-6 sm:px-6 lg:px-8">
@@ -249,53 +251,39 @@
     </svg>
   </div>
 
-  <div class="bg-white">
+  <section class="relative isolate overflow-hidden bg-white pb-3 px-6 sm:py-24 lg:px-8">
     <header class="w-full text-center">
       <p>Testimoni</p>
       <h1 class="text-xl font-bold">Apa kata pengguna?</h1>
     </header>
-
-    <section class="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:px-8">
-      <div
-        class="absolute inset-0 -z-10 bg-[radial-gradient(45rem_50rem_at_top,theme(colors.indigo.100),white)] opacity-20">
-      </div>
-      <div
-        class="absolute inset-y-0 right-1/2 -z-10 mr-16 w-[200%] origin-bottom-left skew-x-[-30deg] bg-white shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 sm:mr-28 lg:mr-0 xl:mr-16 xl:origin-center">
-      </div>
-      <div class="mx-auto max-w-2xl lg:max-w-4xl">
-        <img class="mx-auto h-12" src="https://tailwindui.com/img/logos/workcation-logo-indigo-600.svg" alt="">
-        <figure class="mt-10">
-          <blockquote class="text-center text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
-            <p>“Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas
-              culpa sapiente alias
-              molestiae. Numquam corrupti in laborum sed rerum et corporis.”</p>
-          </blockquote>
-          <figcaption class="mt-10">
-            <img class="mx-auto h-10 w-10 rounded-full"
-              src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-              alt="">
-            <div class="mt-4 flex items-center justify-center space-x-3 text-base">
-              <div class="font-semibold text-gray-900">Judith Black</div>
-              <svg viewBox="0 0 2 2" width="3" height="3" aria-hidden="true" class="fill-gray-900">
-                <circle cx="1" cy="1" r="1" />
-              </svg>
-              <div class="text-gray-600">CEO of Workcation</div>
-            </div>
-          </figcaption>
-        </figure>
-      </div>
-    </section>
-
-    <!-- <div class="carousel-container">
-          <div class="wrapper">
-            <div class="carousel">
-              <img src="src/img/menu-1.png" alt="">
-              <img src="src/img/Logo-Stunting.png" alt="">
-              <img src="src/img/menu-1.png" alt="">
-            </div>
+    <div
+      class="absolute inset-0 -z-10 bg-[radial-gradient(45rem_50rem_at_top,theme(colors.indigo.100),white)] opacity-20">
+    </div>
+    <div
+      class="absolute inset-y-0 right-1/2 -z-10 mr-16 w-[200%] origin-bottom-left skew-x-[-30deg] bg-white shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 sm:mr-28 lg:mr-0 xl:mr-16 xl:origin-center">
+    </div>
+    <div class="mx-auto max-w-2xl lg:max-w-4xl">
+      <figure class="mt-10">
+        <blockquote class="text-center text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
+          <p>“Saya menemukan situs ini saat mencari informasi tentang makanan sehat untuk mencegah stunting pada anak.
+            Web ini memberikan panduan yang jelas dan mudah diikuti untuk memastikan kebutuhan gizi anak-anak saya
+            terpenuhi.”</p>
+        </blockquote>
+        <figcaption class="mt-10">
+          <img class="mx-auto h-10 w-10 rounded-full"
+            src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+            alt="">
+          <div class="mt-4 flex items-center justify-center space-x-3 text-base">
+            <div class="font-semibold text-gray-900">Eyarachmaf</div>
+            <svg viewBox="0 0 2 2" width="3" height="3" aria-hidden="true" class="fill-gray-900">
+              <circle cx="1" cy="1" r="1" />
+            </svg>
+            <div class="text-gray-600">Ibu Rumah Tangga</div>
           </div>
-        </div> -->
-  </div>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
 
 
   <div class="px-12 py-5 bg-white">
@@ -310,9 +298,9 @@
           Jadi, mau masak apa hari ini?</h1>
 
         <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
-          <a href="#"
+          <a href="#menu"
             class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center rounded-full bg-primary500 hover:bg-primary700 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
-            Get started
+            Lihat Resep
             <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
               fill="none" viewBox="0 0 14 10">
               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -335,7 +323,7 @@
             <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">StuntingWeb</span>
           </a>
         </div>
-        <div class="grid gap-8 sm:gap-6 md:grid-cols-4">
+        <div class="grid gap-8 sm:gap-6 md:grid-cols-4 grid-col-1">
           <div>
             <h2 class="mb-6 text-sm font-bold uppercase">About</h2>
             <ul class="text-sm text-gray-700 font-medium">
@@ -436,7 +424,7 @@
   </footer>
 
   <div class="modal-makanan">
-    <div class="relative z-10 modal-buburikan hidden" aria-labelledby="modal-title" role="dialog" aria-modal="true">
+    <div class="modal-buburikan hidden relative z-10" aria-labelledby="modal-title" role="dialog" aria-modal="true">
       <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"></div>
 
       <div class="fixed inset-0 z-10 w-screen overflow-y-auto">
@@ -493,7 +481,8 @@
     </div>
 
 
-    <div class="relative z-10 modal-bubursingkong hidden" aria-labelledby="modal-title" role="dialog" aria-modal="true">
+    <div class="relative  modal-bubursingkong hidden z-10" aria-labelledby="modal-title" role="dialog"
+      aria-modal="true">
 
       <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"></div>
 
@@ -625,7 +614,7 @@
   <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-  <script>
+  <script type="text/javascript">
     AOS.init();
 
     const modalNasiTim = document.querySelector(".modal-nasitim");
@@ -636,9 +625,9 @@
     const showModalBuburIkan = document.querySelector(".btn-modal-buburikan");
     const showModalBuburSingkong = document.querySelector(".btn-modal-bubursingkong");
 
-    const closeModal1 = document.querySelectorAll(".close-modal-1");
-    const closeModal2 = document.querySelectorAll(".close-modal-2");
-    const closeModal3 = document.querySelectorAll(".close-modal-3");
+    const closeModal1 = document.querySelector(".close-modal-1");
+    const closeModal2 = document.querySelector(".close-modal-2");
+    const closeModal3 = document.querySelector(".close-modal-3");
 
 
     showModalNasi.addEventListener("click", () => {
@@ -665,46 +654,9 @@
       modalBuburSingkong.classList.add('hidden');
     });
 
-    // const closeModal1 = () => {
-    //   modalBuburIkan.classList.add("hidder");
-    // }
-
-    const carousel = document.querySelector(".carousel");
-    arrowIcons = document.querySelectorAll(".wrapper i");
-    let isDragStart = false, prevPageX, prevScrollLeft;
-
-    firstImage = carousel.querySelectorAll("img")[0];
-    let firstImageWidth = firstImage.clientWidth + 100;
-
-    arrowIcons.forEach(icon => {
-      icon.addEventListener("click", () => {
-        carousel.scrollLeft += icon.id == "arrow-left" ? -firstImageWidth : firstImageWidth;
-      });
-
+    closeModal1.click(function () {
+      modalBuburIkan.classList.add('hidden');
     });
-
-    const dragStart = (e) => {
-      isDragStart = true;
-      prevPageX = e.pageX;
-      prevScrollLeft = carousel.scrollLeft;
-    }
-
-    const dragStop = () => {
-      isDragStart = false;
-      carousel.classList.remove("dragging");
-    }
-
-    const dragging = (e) => {
-      if (!isDragStart) return;
-      e.preventDefault();
-      carousel.classList.add("dragging");
-      let positionDiff = e.pageX - prevPageX;
-      carousel.scrollLeft = prevScrollLeft - positionDiff;
-    }
-    carousel.addEventListener("mousedown", dragStart)
-    carousel.addEventListener("mousemove", dragging)
-    carousel.addEventListener("mouseup", dragStop)
-    // closeModal1.addEventListener("click", closeModal1);
   </script>
 </body>
 
